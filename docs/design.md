@@ -46,3 +46,11 @@ Note: the same event name can happen on web or app. A "channel" field tells whic
 4. Checkout: checkout_started
 5. Payment: payment_started, then payment_completed
 6. Order Placed: order_placed
+
+## Outcomes (how a session ends)
+Check in this order. The first rule that matches is the outcome.
+
+1. converted: the session has order_placed
+2. support_contact: the session has ticket_created (and no order_placed)
+3. abandoned: the session has add_to_cart but no order_placed
+4. product_switch: the session viewed 2 or more different products, with no add_to_cart
