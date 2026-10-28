@@ -223,3 +223,14 @@ __marimo__/
 data/run1/
 data/run2/
 data/full/
+data/base_small2/
+data/starter2/
+
+# Generated data (reproducible with the generator)
+data/base_small/
+data/base_small2/
+data/base_full/
+data/starter2/
+data/full/
+data/run1/
+data/run2/

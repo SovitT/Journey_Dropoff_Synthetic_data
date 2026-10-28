@@ -1,0 +1,84 @@
+issue_id,issue_type,entity_type,entity_id,related_id,detail,expected_decision
+GT-000001,bot_traffic,session,SES-2026-000018,,"97 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000002,bot_traffic,session,SES-2026-000027,,"156 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000003,bot_traffic,session,SES-2026-000034,,"126 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000004,bot_traffic,session,SES-2026-000071,,"130 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000005,bot_traffic,session,SES-2026-000079,,"96 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000006,bot_traffic,session,SES-2026-000092,,"102 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000007,bot_traffic,session,SES-2026-000103,,"166 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000008,bot_traffic,session,SES-2026-000110,,"83 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000009,bot_traffic,session,SES-2026-000134,,"152 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000010,bot_traffic,session,SES-2026-000182,,"162 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000011,bot_traffic,session,SES-2026-000183,,"164 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000012,bot_traffic,session,SES-2026-000198,,"95 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000013,bot_traffic,session,SES-2026-000237,,"182 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000014,bot_traffic,session,SES-2026-000256,,"181 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000015,bot_traffic,session,SES-2026-000267,,"81 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000016,bot_traffic,session,SES-2026-000287,,"117 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000017,bot_traffic,session,SES-2026-000296,,"71 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000018,bot_traffic,session,SES-2026-000327,,"62 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000019,bot_traffic,session,SES-2026-000340,,"177 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000020,bot_traffic,session,SES-2026-000363,,"109 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000021,bot_traffic,session,SES-2026-000368,,"129 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000022,bot_traffic,session,SES-2026-000385,,"151 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000023,bot_traffic,session,SES-2026-000386,,"110 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000024,bot_traffic,session,SES-2026-000436,,"188 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000025,bot_traffic,session,SES-2026-000441,,"120 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000026,bot_traffic,session,SES-2026-000442,,"112 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000027,bot_traffic,session,SES-2026-000475,,"104 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000028,bot_traffic,session,SES-2026-000561,,"141 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000029,bot_traffic,session,SES-2026-000613,,"134 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000030,bot_traffic,session,SES-2026-000632,,"103 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000031,bot_traffic,session,SES-2026-000638,,"181 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000032,bot_traffic,session,SES-2026-000667,,"168 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000033,bot_traffic,session,SES-2026-000726,,"125 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000034,bot_traffic,session,SES-2026-000727,,"110 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000035,bot_traffic,session,SES-2026-000742,,"191 events, fixed 2s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000036,bot_traffic,session,SES-2026-000773,,"98 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000037,bot_traffic,session,SES-2026-000833,,"84 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000038,bot_traffic,session,SES-2026-000854,,"105 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000039,bot_traffic,session,SES-2026-000882,,"200 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000040,bot_traffic,session,SES-2026-000965,,"144 events, fixed 1s gaps, products crawled in order",exclude from funnel and conversion metrics
+GT-000041,late_event,event,EVT-SES-2026-000048-000001,,ingestion delayed by 3850 seconds,"order by event_time, not ingestion_time"
+GT-000042,late_event,event,EVT-SES-2026-000059-000010,,ingestion delayed by 5501 seconds,"order by event_time, not ingestion_time"
+GT-000043,late_event,event,EVT-SES-2026-000080-000007,,ingestion delayed by 6272 seconds,"order by event_time, not ingestion_time"
+GT-000044,late_event,event,EVT-SES-2026-000161-000003,,ingestion delayed by 5665 seconds,"order by event_time, not ingestion_time"
+GT-000045,late_event,event,EVT-SES-2026-000226-000011,,ingestion delayed by 1162 seconds,"order by event_time, not ingestion_time"
+GT-000046,late_event,event,EVT-SES-2026-000232-000013,,ingestion delayed by 3101 seconds,"order by event_time, not ingestion_time"
+GT-000047,late_event,event,EVT-SES-2026-000238-000010,,ingestion delayed by 1400 seconds,"order by event_time, not ingestion_time"
+GT-000048,late_event,event,EVT-SES-2026-000247-000002,,ingestion delayed by 6196 seconds,"order by event_time, not ingestion_time"
+GT-000049,late_event,event,EVT-SES-2026-000334-000003,,ingestion delayed by 6301 seconds,"order by event_time, not ingestion_time"
+GT-000050,late_event,event,EVT-SES-2026-000344-000004,,ingestion delayed by 700 seconds,"order by event_time, not ingestion_time"
+GT-000051,late_event,event,EVT-SES-2026-000360-000008,,ingestion delayed by 1711 seconds,"order by event_time, not ingestion_time"
+GT-000052,late_event,event,EVT-SES-2026-000365-000001,,ingestion delayed by 564 seconds,"order by event_time, not ingestion_time"
+GT-000053,late_event,event,EVT-SES-2026-000378-000006,,ingestion delayed by 494 seconds,"order by event_time, not ingestion_time"
+GT-000054,late_event,event,EVT-SES-2026-000390-000023,,ingestion delayed by 393 seconds,"order by event_time, not ingestion_time"
+GT-000055,late_event,event,EVT-SES-2026-000420-000003,,ingestion delayed by 2588 seconds,"order by event_time, not ingestion_time"
+GT-000056,late_event,event,EVT-SES-2026-000516-000009,,ingestion delayed by 5994 seconds,"order by event_time, not ingestion_time"
+GT-000057,late_event,event,EVT-SES-2026-000546-000006,,ingestion delayed by 3818 seconds,"order by event_time, not ingestion_time"
+GT-000058,late_event,event,EVT-SES-2026-000572-000005,,ingestion delayed by 2282 seconds,"order by event_time, not ingestion_time"
+GT-000059,late_event,event,EVT-SES-2026-000614-000002,,ingestion delayed by 1914 seconds,"order by event_time, not ingestion_time"
+GT-000060,late_event,event,EVT-SES-2026-000663-000001,,ingestion delayed by 4353 seconds,"order by event_time, not ingestion_time"
+GT-000061,late_event,event,EVT-SES-2026-000672-000007,,ingestion delayed by 5600 seconds,"order by event_time, not ingestion_time"
+GT-000062,late_event,event,EVT-SES-2026-000713-000006,,ingestion delayed by 1135 seconds,"order by event_time, not ingestion_time"
+GT-000063,late_event,event,EVT-SES-2026-000729-000026,,ingestion delayed by 4295 seconds,"order by event_time, not ingestion_time"
+GT-000064,late_event,event,EVT-SES-2026-000779-000001,,ingestion delayed by 4968 seconds,"order by event_time, not ingestion_time"
+GT-000065,late_event,event,EVT-SES-2026-000798-000020,,ingestion delayed by 7122 seconds,"order by event_time, not ingestion_time"
+GT-000066,late_event,event,EVT-SES-2026-000813-000012,,ingestion delayed by 6068 seconds,"order by event_time, not ingestion_time"
+GT-000067,late_event,event,EVT-SES-2026-000817-000001,,ingestion delayed by 764 seconds,"order by event_time, not ingestion_time"
+GT-000068,late_event,event,EVT-SES-2026-000822-000001,,ingestion delayed by 5177 seconds,"order by event_time, not ingestion_time"
+GT-000069,late_event,event,EVT-SES-2026-000824-000020,,ingestion delayed by 4334 seconds,"order by event_time, not ingestion_time"
+GT-000070,late_event,event,EVT-SES-2026-000850-000001,,ingestion delayed by 6759 seconds,"order by event_time, not ingestion_time"
+GT-000071,late_event,event,EVT-SES-2026-000873-000004,,ingestion delayed by 1182 seconds,"order by event_time, not ingestion_time"
+GT-000072,late_event,event,EVT-SES-2026-000902-000008,,ingestion delayed by 3907 seconds,"order by event_time, not ingestion_time"
+GT-000073,late_event,event,EVT-SES-2026-000960-000016,,ingestion delayed by 6101 seconds,"order by event_time, not ingestion_time"
+GT-000074,late_event,event,EVT-SES-2026-000995-000011,,ingestion delayed by 1254 seconds,"order by event_time, not ingestion_time"
+GT-000075,duplicate_conversion,event,EVT-SES-2026-000588-000037,EVT-SES-2026-000588-000036,order_placed recorded twice,"drop the duplicate, count the conversion once"
+GT-000076,duplicate_conversion,event,EVT-SES-2026-000932-000014,EVT-SES-2026-000932-000013,order_placed recorded twice,"drop the duplicate, count the conversion once"
+GT-000077,wrong_identity_merge,session,SES-2026-000405,SES-2026-000158,anonymous_id DEV-000100-1 replaced by DEV-000124-0 (belongs to CUS-000124),do not stitch this anonymous_id across customers
+GT-000078,wrong_identity_merge,session,SES-2026-000628,SES-2026-000311,anonymous_id DEV-000010-0 replaced by DEV-000074-0 (belongs to CUS-000074),do not stitch this anonymous_id across customers
+GT-000079,wrong_identity_merge,session,SES-2026-000825,SES-2026-000252,anonymous_id DEV-000129-1 replaced by DEV-000105-0 (belongs to CUS-000105),do not stitch this anonymous_id across customers
+GT-000080,wrong_identity_merge,session,SES-2026-000896,SES-2026-000959,anonymous_id DEV-000031-0 replaced by DEV-000033-0 (belongs to CUS-000033),do not stitch this anonymous_id across customers
+GT-000081,wrong_identity_merge,session,SES-2026-000929,SES-2026-000821,anonymous_id DEV-000138-0 replaced by DEV-000031-0 (belongs to CUS-000031),do not stitch this anonymous_id across customers
+GT-000082,wrong_identity_merge,session,SES-2026-000935,SES-2026-000876,anonymous_id DEV-000205-0 replaced by DEV-000127-0 (belongs to CUS-000127),do not stitch this anonymous_id across customers
+GT-000083,wrong_identity_merge,session,SES-2026-000991,SES-2026-000567,anonymous_id DEV-000185-1 replaced by DEV-000132-0 (belongs to CUS-000132),do not stitch this anonymous_id across customers

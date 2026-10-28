@@ -121,3 +121,6 @@ Check in this order. The first rule that matches is the outcome.
 - Support events happen inside the same session as the problem (a simplification of the 24-hour rule).
 - ticket_resolved is an event only for fast in-chat resolutions. Slower ones are recorded only in SupportTicket.resolved_time.
 - A cancelled or refunded order still counts as "converted" because it had order_placed. Its final status is in the Order table.
+- High price means above 60 (about the dearest 13% of products), because almost no product costs more than 150.
+- 10% of sessions bounce right after landing and see no product.
+- Bot sessions have 60-200 events. The bot step runs first, and the other problems skip bot sessions.

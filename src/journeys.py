@@ -44,7 +44,9 @@ SUPPORT_EVENTS = {"faq_viewed", "quick_help_opened", "chat_started",
 LEAVE_NORMAL = 0.05        # after a normal product view
 LEAVE_OUT_OF_STOCK = 0.50  # product is out of stock
 LEAVE_HIGH_PRICE = 0.30    # price above HIGH_PRICE
-HIGH_PRICE = 150
+# HIGH_PRICE = 150
+HIGH_PRICE = 60            # roughly the dearest 13% of products
+P_BOUNCE = 0.10 
 LEAVE_CART = 0.25
 LEAVE_CART_BANNER = 0.18   # free_shipping_banner, variant B
 LEAVE_CHECKOUT = 0.20
@@ -203,11 +205,18 @@ def simulate(n_sessions, rng, customers, products, pages, experiments):
         if cust:
             emit("login_completed", gap_mean=15)
 
+        # n_views = 1
+        # while n_views < 25 and dice.chance(0.93):
+        #     n_views += 1
+
+        bounced = dice.chance(P_BOUNCE)
         n_views = 1
-        while n_views < 25 and dice.chance(0.93):
+        while n_views < 25 and dice.chance(0.95):
             n_views += 1
 
-        for _ in range(n_views):
+        for _ in range(0 if bounced else n_views):
+
+        # for _ in range(n_views):
             if dice.chance(0.7):
                 emit("page_view")
             if dice.chance(0.4):
