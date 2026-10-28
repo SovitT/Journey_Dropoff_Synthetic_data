@@ -1,9 +1,3 @@
-"""Analysis: detects the injected problems, cleans the data and reports
-funnel, drop-off, friction and experiment results in findings.md.
-
-Detection and cleaning use ONLY input columns. ground_truth.csv is read in
-exactly one place (the block marked below) to grade the detectors.
-"""
 import argparse
 import math
 from pathlib import Path

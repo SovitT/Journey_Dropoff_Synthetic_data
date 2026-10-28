@@ -1,4 +1,3 @@
-"""Prints a short fingerprint (hash) of every CSV in a folder."""
 import hashlib
 import sys
 from pathlib import Path

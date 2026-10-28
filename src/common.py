@@ -1,4 +1,3 @@
-"""Shared settings and ID helpers."""
 import pandas as pd
 
 SEED = 20261022

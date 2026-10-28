@@ -1,10 +1,3 @@
-"""Validation: checks the generated dataset and writes validation_summary.md.
-
-Every check counts violations and must find 0. The injected problems
-(late events, duplicate conversions, wrong merges, bots) are labelled in
-ground_truth.csv and are NOT integrity violations, so they do not fail here.
-Their detection is scored in analyze.py.
-"""
 import argparse
 import sys
 from pathlib import Path

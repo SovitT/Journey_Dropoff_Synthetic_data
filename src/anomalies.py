@@ -1,15 +1,3 @@
-"""Injects labelled problems into the clean baseline data.
-
-Reads the baseline folder (--src), writes the final dataset (--out) and a
-separate ground_truth.csv. The baseline is never changed, so running this
-twice gives the same result.
-
-Problems injected (issue_type in ground_truth.csv):
-  late_event            event arrives long after it happened
-  duplicate_conversion  order_placed event recorded twice
-  wrong_identity_merge  one anonymous_id shared by two customers
-  bot_traffic           scraper sessions mixed in with real visitors
-"""
 import argparse
 import shutil
 from pathlib import Path

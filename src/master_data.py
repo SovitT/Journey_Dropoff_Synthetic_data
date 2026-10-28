@@ -1,4 +1,3 @@
-"""Creates the parent tables: customers, products, pages, experiments."""
 import argparse
 from pathlib import Path
 

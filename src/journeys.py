@@ -1,9 +1,3 @@
-"""Simulates sessions and everything that happens inside them.
-
-Outputs: sessions, journey_events, carts, cart_items, orders,
-support_tickets, session_experiments, journey_outcomes.
-Run master_data.py first (same --out folder).
-"""
 import argparse
 import bisect
 import math
