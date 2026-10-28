@@ -1,0 +1,4 @@
+experiment_id,name,start_date,end_date
+EXP-2026-000001,checkout_button_color,2026-01-15,2026-02-15
+EXP-2026-000002,simplified_checkout,2026-02-01,2026-03-15
+EXP-2026-000003,free_shipping_banner,2026-03-01,2026-03-31

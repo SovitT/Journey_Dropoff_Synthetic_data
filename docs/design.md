@@ -115,3 +115,9 @@ Check in this order. The first rule that matches is the outcome.
 - No event happens before its session starts
 - Order total equals the sum of its CartItem rows
 - Running twice with the same seed gives identical files
+
+## Changes made while building
+- Three extra web/app events were added to reach realistic volume: filter_applied, product_image_view, review_viewed.
+- Support events happen inside the same session as the problem (a simplification of the 24-hour rule).
+- ticket_resolved is an event only for fast in-chat resolutions. Slower ones are recorded only in SupportTicket.resolved_time.
+- A cancelled or refunded order still counts as "converted" because it had order_placed. Its final status is in the Order table.
